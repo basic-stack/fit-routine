@@ -58,6 +58,11 @@ GET /users/{userId}       # 특정 사용자 조회
 GET /users/{userId}/posts # 사용자의 게시글 조회
 ```
 
+### Controller 전달 값 규칙
+
+- 전달 값이 하나인 경우(PK) : @PathVariable
+- 객체 또는 예민한 정보 : @RequestBody
+
 ### HTTP 메서드 사용 규칙
 
 | 메서드      | 역할            | 예시                      |
@@ -131,6 +136,9 @@ Person person = Person.builder()
 ### DTO, VO 외 사용 지양
 
 부수 효과를 방지하기 위해 **DTO**, **VO** 외 사용을 지양합니다. 대신 직접 작성하도록 합니다.
+<br/>
+DTO 접미사 없이 작성 (ProfileInfoDTO - X, ProfileInfo - O)
+VO는 DB의 테이블명과 동일하게 작성 (TB_MEMBER인 경우 MEMBER)
 
 예시는 다음과 같습니다:
 
