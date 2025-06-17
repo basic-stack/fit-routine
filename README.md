@@ -76,7 +76,7 @@
 - SweetAlert2
 - Toastify
 - Prettier
-- Eslint
+- ESLint
 
 ### Backend
 
