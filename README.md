@@ -66,12 +66,16 @@
 
 - React
 - React Router
+- React-router-dom
+- React icons
 - Axios
 - CSS Modules
 - FullCalendar
+- chart.js
 - chartjs-2
 - SweetAlert2
 - Toastify
+- prettier
 
 ### Backend
 
