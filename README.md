@@ -75,7 +75,8 @@
 - chartjs-2
 - SweetAlert2
 - Toastify
-- prettier
+- Prettier
+- Eslint
 
 ### Backend
 
