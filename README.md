@@ -17,7 +17,7 @@
 
 **Fit Routine**은 사용자의 운동 목표에 맞춰 식단과 운동을 추천받고, 이를 토대로 직접 계획을 설정하며, 인증 사진을 공유하고 소통할 수 있는 건강 관리 플랫폼입니다.
 
-## 프로젝트 레포지토리
+## 📄프로젝트 레포지토리
 
 - [fit-routine-backend](https://github.com/basic-stack/fit-routine-backend)
 - [fit-routine-frontend](https://github.com/basic-stack/fit-routine-frontend)
