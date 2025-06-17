@@ -7,9 +7,17 @@
 - https://github.com/basic-stack/fit-routine-frontend/blob/main/.prettierrc
 - https://github.com/basic-stack/fit-routine-frontend/blob/main/eslint.config.mjs
 
+### 변수/메소드/클래스명 네이밍 규칙
+
+기본적으로 camelCase를 사용해야 한다.
+
+### 파일 이름 규칙
+
+기본적으로 PascalCase사용하여 작성한다. 예를 들어 `MainPage.jsx / Header.jsx`.
+
 ### 폴더 이름 규칙
 
-폴더 내 `jsx` 파일이 하나만 있는 경우, 해당 파일의 이름을 폴더의 이름으로 합니다. 그 외의 경우엔 소문자로 명명합니다.
+기본적으로 소문자를 사용하고, 동일한 이름의 파일이 존재하는 경우에만 PascalCase로 파일명과 동일하게 작성
 
 ### CSS 규칙
 
@@ -35,7 +43,7 @@ import 선언 순서는 다음과 같습니다:
 ```javascript
 
 // 절대 경로
-import { isLoggedIn } from '../../../utils/helpers/token';
+import { isLoggedIn } from 'utils/helpers/token';
 
 // 상대 경로
 import styles from './LoginPage.module.css';
