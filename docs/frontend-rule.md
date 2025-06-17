@@ -48,3 +48,20 @@ import { isLoggedIn } from 'utils/helpers/token';
 // 상대 경로
 import styles from './LoginPage.module.css';
 ```
+
+### 컴포넌트 구성
+- 최하위 컴포넌트는 생성하지 않고, 부수 효과 없이 단일 태그만 사용
+- 해당 태그의 스타일만 분리(.module.css)
+- 컴포넌트 작성 규칙
+```
+import ... from '...';
+
+function Foo () {
+    return (
+        <>
+        </>
+    );
+}
+
+export default Foo;
+```
