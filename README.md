@@ -65,7 +65,7 @@
 ### Frontend
 
 - React
-- React Router
+- React-router
 - React-router-dom
 - React icons
 - Axios
