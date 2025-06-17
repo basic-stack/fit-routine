@@ -35,7 +35,7 @@ import 선언 순서는 다음과 같습니다:
 ```javascript
 
 // 절대 경로
-import { isLoggedIn } from '../../../utils/helpers/token';
+import { isLoggedIn } from 'utils/helpers/token';
 
 // 상대 경로
 import styles from './LoginPage.module.css';
